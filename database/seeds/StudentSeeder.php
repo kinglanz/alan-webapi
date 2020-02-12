@@ -20,19 +20,19 @@ class StudentSeeder extends Seeder
         // 	'nama'=>'Alan',
         // 	'jk'=>'P'
         // ]);
-        for ($i=0; $i <20 ; $i++) 
-        { 
+        // for ($i=0; $i <20 ; $i++) 
+        // { 
             
-            $jk = 'P';
-            if ($i > 10) 
-            {
-                $jk = 'L';
-            };
-            Student::create([
-                'nama'=>'Alan-' .$i,
-                'jk'=> $jk,       
-            ]);   
-        }
+        //     $jk = 'P';
+        //     if ($i > 10) 
+        //     {
+        //         $jk = 'L';
+        //     };
+        //     Student::create([
+        //         'nama'=>'Alan-' .$i,
+        //         'jk'=> $jk,       
+        //     ]);   
+        // }
         /*for ($i=0; $i <20 ; $i++) { 
             # code...
             Student::create([
